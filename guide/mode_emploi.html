@@ -1,0 +1,80 @@
+﻿<html>
+    <head>
+        <title>
+            Guide d'utilisation
+        </title>
+    </head>
+    <body>
+        <img class="bg" src="bg.jpeg"/>
+        <h1 style="text-align: center;"><span style="color: #008080;">Guide d'utilisation</span></h1>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><strong><span style="color: #008080;">Interface principale</span></strong></p>
+<p style="text-align: left;">&nbsp;Une fois on ouvre l'application cette interface s'ouvre, il faut tout d'abord choisir le type du graphe et puis cliquer sur 'Lancer' pour lancer le programme.&nbsp;</p>
+<p style="text-align: center;"><strong><span style="color: #008080;"><img src="principale.png" alt="" /></span></strong></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">Une fois le bouton 'Lancer' est cliqu&eacute;, une zone blanche (Pour le dessin du graphe) apparait comme suit:</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: center;"><img src="lancement.png" alt="" /></p></br>
+<p style="text-align: left;">-Pour ajouter un sommet cliquez sur un emplacement vide et saisissez un label pour ce sommet.<br /><br />-Pour lier deux sommets par un arr&ecirc;t/arc cliquez(s&eacute;lectionnez) le premier sommet apr&egrave;s cliquez(s&eacute;lectionnez) le deuxi&egrave;me et saisissez le co&ucirc;t (dans le cas si le graphe est pond&eacute;r&eacute;).<br /><br />-Pour supprimer un arr&ecirc;t/arc refaites les &eacute;tapes de sa cr&eacute;ation.<br /><br />-Pour supprimer un sommet, cliquez droit sur le sommet, et s&eacute;lectionnez supprimer.</p>
+<p>-Pour d&eacute;placer un sommet, cliquez deux fois sur le sommet, bougez votre sommet comme vous le voulez, encore un clic droit pour rel&acirc;cher</p>
+<p>-Pour modifier un sommet/arr&ecirc;t/arc il faut le supprimer et le cr&eacute;er a nouveau.</p>
+<p>-Pour avoir des informations sur le sommet un cilc droit sur le sommet et choisir 'informations'.</p>
+<h3 style="text-align: center;"><br /><span style="color: #008080;">Application des algorithmes</span></h3>
+<p>Les algorithmes support&eacute;s par cette application sont:</p>
+<ul style="list-style-type: circle;">
+<li style="text-align: left;">BFS/DFS: pour le parcours des graphes.</li>
+<li>Prim/ Kruskal: pour &eacute;liminer les cycles et g&eacute;n&eacute;rer un arbre couvrant minimal.</li>
+<li>Wareshall: pour la fermeture transitive des graphes.</li>
+<li>Dijkstra/BelmanFord pour trouver les plus courts chemins &agrave; partir d&rsquo;un sommet.</li>
+<li>Ford Fulkerson : pour trouver le flux max entre un sommet source et un sommet destinataire (les deux sont d&eacute;tect&eacute;s automatiquement par l&rsquo;application).</li>
+<li>Welch &amp; Powell : pour faire le coloriage.</li>
+</ul>
+<p>Ces algorithmes sont appliquable dans les conditions suivantes:</p>
+<p>&bull;&nbsp;BFS et DFS : vous devez s&eacute;lectionner un sommet de d&eacute;part.<br />&bull; Wareshall : vous devez cr&eacute;er un graphe non vide.<br />&bull; Prim/ Kruskal: vous devez cr&eacute;er un graphe non vide.<br />&bull; Dijkstra : vous devez cr&eacute;er un graphe pond&eacute;r&eacute; positivement et s&eacute;lectionn&eacute; un<br />sommet de d&eacute;part.<br />&bull; BelmanFord : vous devez cr&eacute;er un graphe pond&eacute;r&eacute; et s&eacute;lectionner un sommet de<br />d&eacute;part.<br />&bull; FordFolkerson : vous devez cr&eacute;er un graphe pond&eacute;r&eacute;, orient&eacute; et contient un sommet source(avec d&eacute;gr&eacute;e Entrante=0) et un sommet de destination (avec d&eacute;gr&eacute;e Sortante=0). </p> &bull; Welch &amp; Powell: vous devez cr&eacute;er un graphe non vide. </br></p>
+<p>&nbsp;</p>
+<p>Ces algorithmes sont disponible dans le menu des algorithmes:</p></br>
+<p style="text-align: center;"><img src="algos.png" alt="" /></p></br>
+<p>&nbsp;Afin d'avoir plus de controle sur votre graphe, le menu qui suit vous permet de changer les couleurs des sommets, arr&ecirc;tes, labels, le parcours BFS et DFS et de controler le temps d'animation des algorithmes.</p></br>
+<p style="text-align: center;"><img src="edit.png" alt="" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Cette fen&ecirc;tre vous affiche la trace de l'algorithme d&eacute;taill&eacute;e.</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: center;"><img src="trace.png" alt="" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">La fen&ecirc;tre qui suit, vous donne des informations supplimentaires sur votre graphe, (nombre de sommets, nombre d'ar&ecirc;tes, matrice d'adjacence avec la possibilit&eacute; d'entrer une autre matrice, et l'application va dessiner le graphe correspondant automatiquement)</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: center;"><img src="algos.png" alt="" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Ce menu vous permet de:</p>
+<ol>
+<li style="text-align: left;">Exporter un PDF avec les r&eacute;sultats eu.</li>
+<li style="text-align: left;">Recomencer d&egrave;sle d&eacute;but.</li>
+<li style="text-align: left;">Acc&eacute;der &agrave; ce guide d'utilisation.</li>
+</ol>
+<p>&nbsp;</p>
+<p style="text-align: center;"><img src="menu.png" alt="" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;"><span style="color: #008080;"><strong>Merci d'avoir utiliser notre application</strong></span></p>
+    </body>
+    <style>
+        .header #link:hover {
+    transform: translateY(-10px);
+    background: rgb(245, 245, 245);
+}
+    body {
+    font-size: 18px;
+    background-size: cover;
+    font-family: "Poppins";
+}
+
+    .bg{
+        position: fixed;
+        z-index: -1;
+        width:100%;
+        height:100%;
+        opacity: 0.7;
+    }
+    </style>
+    </html>
